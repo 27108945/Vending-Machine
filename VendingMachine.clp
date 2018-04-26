@@ -22,8 +22,8 @@
         (if(eq ?coin c10) then
                 (bind ?total (- ?total 0.10)))
         (if(> ?total 0) then
-        (printout t "You need R " ?total "0" crlf))
-        (change ?total)))
+        (printout t "You need R " ?total "0" crlf)))
+        (change ?total))
 
 (deffunction inputItem ()
         (bind ?item (read))
